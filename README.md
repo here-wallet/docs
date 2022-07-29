@@ -14,7 +14,7 @@ For transactions within the wallet hNEAR is used. For transactions with third-pa
 
 ![](.gitbook/assets/image.png)
 
-The `astostaking` project is used for steaking. Users receive an accrual of interest to their hNEAR account on demand. The resulting income can be withdrawn at any time, turning it into NEAR.
+The `astostaking` project is used for staking. Users receive an accrual of interest to their hNEAR account on demand. The resulting income can be withdrawn at any time, turning it into NEAR.
 
 {% embed url="https://astrostakers.com/" %}
 More about astostaking
@@ -37,8 +37,6 @@ With them, owner have full access to the allocation of staking. The calls duplic
 * `public_force_withdraw(&self)`
 
 With the help of them community can hijack the control. If the security on the storage balance drops below 5% you can call methods `public_force_unstake`, `public_force_withdraw`. This will lead to withdrawal of funds from "astro-stakers.poolv1.near" and freezing the staking control for 6 epochs. Also the first to find the problem will be paid a bonus of 1 hNEAR.
-
-
 
 ### Staking income
 
