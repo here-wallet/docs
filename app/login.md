@@ -5,7 +5,7 @@ coverY: 0
 
 # 💻 Login
 
-NEAR keys do not contain the data needed to add records to the blockchain, they are only needed to prove to other validators that you have the right to make the transaction
+NEAR keys do not contain the data needed to add records to the blockchain, they are only needed to prove to other validators that you have the right to make the transaction.
 
 In NEAR the access keys are implemented very elegantly. Each account keeps a list of public keys with permissions. This allows you to give the application partial access to the data without showing your main private key.
 
@@ -18,4 +18,3 @@ To add a key to your account, you need to sign the transaction on the NEAR web w
 {% hint style="info" %}
 We are the first wallet who uses this method of authorization. Thanks to it users can login into the application through a web wallet without using their seed! This is the fastest and most convenient way to log in to your NEAR account
 {% endhint %}
-
