@@ -5,7 +5,7 @@ coverY: 0
 
 # 💻 Login
 
-NEAR keys do not contain the data needed to add records to the blockchain, they are only needed to prove to other validators that you have the right to make the transaction.
+NEAR keys do not contain the data needed to add records to the blockchain, they are only needed to prove to other validators that you have the right to make the transaction
 
 In NEAR the access keys are implemented very elegantly. Each account keeps a list of public keys with permissions. This allows you to give the application partial access to the data without showing your main private key.
 

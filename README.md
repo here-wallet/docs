@@ -1,5 +1,5 @@
 ---
-description: Disassembling NEAR storage at HERE Wallet
+description: Disassembling NAER storage at HERE Wallet
 cover: .gitbook/assets/tg_image_3445600662.jpeg
 coverY: 25.559105431309906
 ---
@@ -8,9 +8,9 @@ coverY: 25.559105431309906
 
 ### Abstract
 
-The smart contract implement the NEP-141 spec (similar to ERC-20) to store user funds. In exchange for the NEAR, the user receives tokens of the wrapped NEAR. Most of the money held on the contract is stacked, but some is always left free. This allows users to swap hNEAR to NEAR at any time without commission and use their funds.
+The smart contract implement the NEP-141 spec (similar to ERC-20) to store user funds. In exchange for the NEAR, the user receives tokens of the wrapped NEAR. Most of the money held on the contract is stacking, but some is always left free. This allows the user to swap hNEAR to NEAR at any time without commission and use their funds.
 
-Also, hNEAR is used for transactions within the wallet. However, for transactions with third-party users first conversion hNEAR to NEAR and then transfer it.
+For transactions within the wallet hNEAR is used. For transactions with third-party users first conversion hNEAR to NEAR and then transfer NEAR.
 
 ![](.gitbook/assets/image.png)
 
@@ -22,7 +22,7 @@ More about astostaking
 
 ### Money control
 
-**There are private methods for controlling staking**
+**There are private methods for controlling steaking**
 
 * `stake(&self, amount: U128)`
 * `unstake(&self, amount: U128)`
@@ -31,12 +31,12 @@ More about astostaking
 
 With them, owner have full access to the allocation of staking. The calls duplicate the management methods "astro-stakers.poolv1.near". (`stake`, `unstake`, `deposit`, `withdraw`)
 
-**And public methods for controlling staking**
+**And public methods for controlling steaking**
 
 * `public_force_unstake(&mut self)`
 * `public_force_withdraw(&self)`
 
-With the help of them community can hijack the control. If the security on the storage balance drops below 5% you can call methods `public_force_unstake`, `public_force_withdraw`. This will lead to withdrawal of funds from "astro-stakers.poolv1.near" and freeze the staking control for 6 epochs. Also, the first to find the problem will be paid a bonus of 1 hNEAR.
+With the help of them community can hijack the control. If the security on the storage balance drops below 5% you can call methods `public_force_unstake`, `public_force_withdraw`. This will lead to withdrawal of funds from "astro-stakers.poolv1.near" and freezing the staking control for 6 epochs. Also the first to find the problem will be paid a bonus of 1 hNEAR.
 
 ### Staking income
 

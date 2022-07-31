@@ -4,16 +4,14 @@ description: how the NEAR -BTC bridge works at HERE Wallet
 
 # BTC Bridge
 
-### Why do I need a BTC in NEAR wallet?
+### Why do I need BTC in HERE wallet?
 
-1. Today, most services that accept cryptocurrencies accept bitcoin. If you want to use NEAR for real-world purchases, you need to be able to convert it to BTC. And it should be not a wBTC, but real bitcoin, which you can send to the seller
+1. Most services that accept cryptocurrencies accept bitcoin. If you want to use NEAR for real-world purchases, you need to be able to convert it to BTC. And it should be not a wBTC, but real bitcoin, which you can send to the seller
 2. Bitcoin is also the most popular cryptocurrency. If you want to buy NEAR today, you probably already have bitcoin. At the same time, buying NEAR for BTC requires no intermediaries and no KYC. This is the easiest and safest way to buy your first NEAR
-
-
 
 ### How we can buy BTC for NEAR now?
 
-In fact, today there is already a way to get BTC for your NEAR. To do this you need to:&#x20;
+In fact, today there is already a way to get BTC for your NEAR. To do this you need to:
 
 1. buy wBTC in NEAR via ref.finance (0.3- 0.6% fee) (5c)
 2. send them to ethereum over the Rainbow bridge (18h + 20-300$ fee)
@@ -24,7 +22,7 @@ It will take a lot of time, spend 0.3% + \~50$ commission and require the use of
 
 ![](../.gitbook/assets/Cover.png)
 
-### **How the bridge works in HERE:**&#x20;
+### **How the bridge works in HERE:**
 
 1. buy wBTC in NEAR via tonic (0.1% fee)
 2. send wBTC to smart contract indicating the `target address` for the transfer

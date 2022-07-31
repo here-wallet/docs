@@ -1,5 +1,7 @@
 ---
-description: What solutions do we use to ensure security of storage in HERE Wallet
+description: >-
+  In this page we want to tell you more about what solutions we use to ensure
+  security of storage in HERE Wallet
 cover: ../.gitbook/assets/Export This (1).png
 coverY: -249.20127795527156
 ---
@@ -26,7 +28,7 @@ An important task in smart contract management is forecasting expenses in order 
 
 ### Interest Payment
 
-Interest accrual is automatic. When you open the HERE Wallet app, the background makes a request for a smart contract and requests a transfer profit NEAR to the user's account. Withdrawal can be requested at least every second. All accumulated interest since the last withdrawal NEAR will be withdrawn. The interest rate is fixed. Only the contract owner may change it, for example if the yield of the staking changes. It is guaranteed to be between 2 and 10% APY.
+**I**nterest accrual is automatic. When you open the HERE Wallet app, the background makes a request for a smart contract and requests a transfer profit NEAR to the user's account. Withdrawal can be requested at least every second, all accumulated interest since the last withdrawal NEAR will be withdrawn. The interest rate is fixed. Only the contract owner may change it, for example if the yield of the staking changes. It is guaranteed to be between 2 and 10% APY.
 
 It is the task of the contract management team to get the income. The user is guaranteed to get his percentage. If the management is not good enough, the money will be paid out of reserves. If there is not enough money in the reserves to pay dividends, the HERE Wallet app will automatically transfer all NEAR to the cold wallet and you will use it as usual, like on the web wallet. Interest will never be paid at the expense of other users' balances.
 
@@ -34,6 +36,6 @@ It is the task of the contract management team to get the income. The user is gu
 The amount of commissions. Now the price of gas for transfer, deposit and withdrawal is less than 0.0001N. They are recouped by the income from the staking.
 {% endhint %}
 
-### Сonclusion
+### Conclusion
 
 Today, liquid staking on the HERE Wallet is the most advanced available in the NEAR ecosystem. We can provide good income without blocking NEAR and still leave the control to the community.
