@@ -8,9 +8,9 @@ coverY: 25.559105431309906
 
 ### Abstract
 
-The smart contract implement the NEP-141 spec (similar to ERC-20) to store user funds. In exchange for the NEAR, the user receives tokens of the wrapped NEAR. Most of the money held on the contract is stacking, but some is always left free. This allows the user to swap hNEAR to NEAR at any time without commission and use their funds.
+The smart contract implements the NEP-141 spec (similar to ERC-20) to store user funds. In exchange for the NEAR, the user receives tokens of the wrapped NEAR. Most of the money held on the contract is stacking, but some are always left free. This allows the user to swap hNEAR to NEAR at any time without commission and use their funds.
 
-For transactions within the wallet hNEAR is used. For transactions with third-party users first conversion hNEAR to NEAR and then transfer NEAR.
+For transactions within the wallet, hNEAR is used. For transactions with third-party users first conversion hNEAR to NEAR and then transfer NEAR.
 
 ![](.gitbook/assets/image.png)
 
@@ -20,7 +20,7 @@ The `astostaking` project is used for staking. Users receive an accrual of inter
 More about astostaking
 {% endembed %}
 
-### Money control
+### Money management
 
 **There are private methods for controlling steaking**
 
@@ -29,21 +29,21 @@ More about astostaking
 * `deposit_stake(&self, amount: U128)`
 * `withdraw_stake(&self, amount: U128)`
 
-With them, owner have full access to the allocation of staking. The calls duplicate the management methods "astro-stakers.poolv1.near". (`stake`, `unstake`, `deposit`, `withdraw`)
+With them, the owner has full access to the allocation of staking. The calls duplicate the management methods "astro-stakers.poolv1.near". `(stake, unstake, deposit, withdraw)`
 
 **And public methods for controlling steaking**
 
 * `public_force_unstake(&mut self)`
 * `public_force_withdraw(&self)`
 
-With the help of them community can hijack the control. If the security on the storage balance drops below 5% you can call methods `public_force_unstake`, `public_force_withdraw`. This will lead to withdrawal of funds from "astro-stakers.poolv1.near" and freezing the staking control for 6 epochs. Also the first to find the problem will be paid a bonus of 1 hNEAR.
+With the help of the community can hijack the control. If the security on the storage balance drops below 5% you can call methods `public_force_unstake`, `public_force_withdraw`. This will lead to the withdrawal of funds from "astro-stakers.poolv1.near" and freeze the staking control for 6 epochs. Also, the first to find the problem will be paid a bonus of 1 hNEAR.
 
 ### Staking income
 
 #### Owner
 
-Owner can get his dividends at any time, using method `recive_owner_dividends(amount)`. `amount` must be less than the total balance of all users and the amount of accumulated dividends. The method `get_account_total_balance()` on the `astostaking` contract will be called to check the storage balance. If the check is successful, the owner has received on his account hNEAR.
+The owner can get his dividends at any time, using the method `recive_owner_dividends(amount)`. `amount` must be less than the total balance of all users and the number of accumulated dividends. The method `get_account_total_balance()` on the `astostaking` the contract will be called to check the storage balance. If the check is successful, the owner has received it on his account hNEAR.
 
 #### User
 
-User can recive his dividends at any time, using method `recive_dividends`. User will recive hNEAR = `user_balance / 1000 * apy_value / ONE_YEAR_TS * (NOW_TS - last_accrual_ts)`. 0 <= `apy_value` <= 1000
+User can receive their dividends at any time, using the method `recive_dividends`. User will receive hNEAR = `user_balance / 1000 * apy_value / ONE_YEAR_TS * (NOW_TS - last_accrual_ts)`. 0 <= `apy_value` <= 1000

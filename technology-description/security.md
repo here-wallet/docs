@@ -14,9 +14,9 @@ We were faced with a difficult task: the development team must manage the balanc
 
 ### Red Button
 
-To solve this problem, we have created the "Red Button" approach in our contract. It is a set of public methods that are available only if liquidity drops below 5% of the total users balance. These methods will allow you to unstake all the money and return it to the contract vaults. Also, if the "Red Button" is pressed, the management methods will be blocked for 6 epochs. During this time, the money will have time to unstake and all users will be able to withdraw it from the smart contract.
+To solve this problem, we have created the "Red Button" approach in our contract. It is a set of public methods that are available only if liquidity drops below 5% of the total users' balance. These methods will allow you to unstake all the money and return it to the contract vaults. Also, if the "Red Button" is pressed, the management methods will be blocked for 6 epochs. During this time, the money will have time to unstake and all users will be able to withdraw it from the smart contract.
 
-This approach ensures that even if the contract is mismanaged, users can always access the money. At the same time it gives more freedom of management since it is not necessary to put all the logic of money management into a smart contract. External management works more accurately and gives more profit.
+This approach ensures that even if the contract is mismanaged, users can always access the money. At the same time, it gives more freedom to management since it is not necessary to put all the logic of money management into a smart contract. External management works more accurately and gives more profit.
 
 {% hint style="warning" %}
 The "Red Button" will be pressed automatically in the HERE Wallet application if low liquidity is detected when checking the status of the contract.
@@ -33,9 +33,9 @@ An important task in smart contract management is forecasting expenses in order 
 It is the task of the contract management team to get the income. The user is guaranteed to get his percentage. If the management is not good enough, the money will be paid out of reserves. If there is not enough money in the reserves to pay dividends, the HERE Wallet app will automatically transfer all NEAR to the cold wallet and you will use it as usual, like on the web wallet. Interest will never be paid at the expense of other users' balances.
 
 {% hint style="info" %}
-The amount of commissions. Now the price of gas for transfer, deposit and withdrawal is less than 0.0001N. They are recouped by the income from the staking.
+The number of commissions. Now the price of gas for transfer, deposit, and withdrawal is less than 0.0001N. They are recouped by the income from the staking.
 {% endhint %}
 
 ### Conclusion
 
-Today, liquid staking on the HERE Wallet is the most advanced available in the NEAR ecosystem. We can provide good income without blocking NEAR and still leave the control to the community.
+Today, liquid staking on the HERE Wallet is the most advanced available in the NEAR ecosystem. We can provide good income without blocking NEAR and still leave control to the community.
