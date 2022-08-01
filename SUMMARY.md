@@ -14,5 +14,6 @@
 
 ## partners
 
+* [GetBlock](partners/getblock.md)
 * [NEAR Foundation](partners/near-foundation.md)
 * [Tonic DEX](partners/tonic-dex.md)
