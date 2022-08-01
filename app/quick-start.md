@@ -64,7 +64,7 @@ contract_id = "storage.herewallet.near"
 
 ## Register on smart contract
 
-To get access to the app's api and start earning income from staking, you need to register for a smart contract at a storage&#x20;
+To get access to the app's api and start earning income from staking, you need to register for a smart contract at a storage
 
 {% tabs %}
 {% tab title="Bash" %}
@@ -89,8 +89,6 @@ await contract.register_account(
   "0")
 );
 ```
-
-
 {% endtab %}
 {% endtabs %}
 
@@ -100,7 +98,7 @@ Or register via mobile app interface
 HERE app
 {% endembed %}
 
-After registration in the application will have access to features, but to start receiving income you need to top up your balance in the wallet.
+After registration in the application will have access to features, but to start receiving earnings you need to top up your balance in the wallet.
 
 {% tabs %}
 {% tab title="Bash" %}
