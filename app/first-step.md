@@ -14,7 +14,7 @@ If you have a near account, we can log in using your passphrase.if you have a wa
 2. Click "use seed phrase"
 3. Enter seed phrase and click “find my account
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (5).png>)
 
 ### Web wallet
 
@@ -31,7 +31,7 @@ If you have a wallet at wallet.near.org
 9. Enter account ID and click “Confirm”
 10. You will be authorized on mobile device
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (3).png>)
 
 ## Setup username (free)
 
@@ -48,7 +48,7 @@ NEAR is available with usernames instead of addresses. Usually, they cost 0.1N, 
 4. Click “Stake”
 5. All set! Now you will receive a daily income at the rate of 8-10% p.a. on your balance
 
-![](<../.gitbook/assets/image (2).png>)
+![](../.gitbook/assets/image.png)
 
 ## Send NEAR
 
@@ -60,7 +60,7 @@ NEAR is available with usernames instead of addresses. Usually, they cost 0.1N, 
 6. Review and click “confirm”
 7. Awesome. You’ve sent the money
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 ## Use dApps
 
@@ -73,7 +73,7 @@ Before making transfers to third-party wallets you need to withdraw part of the 
 3. Enter the amount to unstake
 4. Click “Confirm”
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (4).png>)
 
 ### &#x20;
 
