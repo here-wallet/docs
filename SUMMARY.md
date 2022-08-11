@@ -3,9 +3,10 @@
 ## Technology description
 
 * [HERE Storage](README.md)
+* [dApps HERE](technology-description/dapps-here.md)
 * [Security](technology-description/security.md)
 * [BTC Bridge](technology-description/btc-bridge.md)
-* [RPC NODE](technology-description/rpc-node.md)
+* [RPC NODE](app/rpc-node.md)
 
 ## App
 
