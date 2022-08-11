@@ -14,6 +14,7 @@
 
 ## partners
 
-* [GetBlock](partners/getblock.md)
 * [NEAR Foundation](partners/near-foundation.md)
+* [Astrostakers](partners/astrostakers.md)
+* [GetBlock](partners/getblock.md)
 * [Tonic DEX](partners/tonic-dex.md)
