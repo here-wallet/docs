@@ -5,12 +5,12 @@
 * [HERE Storage](README.md)
 * [Security](technology-description/security.md)
 * [BTC Bridge](technology-description/btc-bridge.md)
+* [RPC NODE](technology-description/rpc-node.md)
 
 ## App
 
 * [🚀 First step](app/first-step.md)
 * [💻 Login](app/login.md)
-* [📡 RPC NODE](app/rpc-node.md)
 
 ## partners
 
