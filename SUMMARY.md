@@ -8,7 +8,7 @@
 
 ## App
 
-* [✊ Quick Start](app/quick-start.md)
+* [🚀 First step](app/first-step.md)
 * [💻 Login](app/login.md)
 * [📡 RPC NODE](app/rpc-node.md)
 

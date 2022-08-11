@@ -15,6 +15,8 @@ To add an access key, you need to perform the same transaction as to transfer mo
 
 To add a key to your account, you need to sign the transaction on the NEAR web wallet. By opening a page on the web wallet with a link from the application, you transfer a public key and a list of rules. After confirmation, the web wallet will send a request to add the public key to the blockchain. Once the public key is added, the HERE application can use the generated private key to sign all transactions.
 
+{% embed url="https://www.youtube.com/watch?v=pvq4cVh5viU" %}
+
 {% hint style="info" %}
 HERE is the first wallet that uses this method of authorization. Thanks to it users can log in into the application through a web wallet without using their seed! This is the fastest and most convenient way to log in to your NEAR account
 {% endhint %}
