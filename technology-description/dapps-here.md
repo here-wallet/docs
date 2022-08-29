@@ -26,6 +26,10 @@ Contract NEAR: `storage.herewallet.app`
    1. use to\_account\_id=None to withdraw dividends to dApp account
    2. use to\_account\_id=dappowner.near to withdraw dividends from HERE to owners account
 
+
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ## Example
 
 Let's look at an example of how HERE uses the game app. Users can deposit, play and withdraw at any time. At the same time there are usually 3-4k NEAR on the balance of the dApp and the owners could earn additional income.
@@ -113,6 +117,9 @@ Then
 
 * daily gas cost: 2600 TGas \~ 0.00000000026 NEAR
 * daily dividends: \~1.3 - 2.5N = 8.2 - 15$
-* annual profit: 2993-5475$ \*\*
+* annual profit: 2993-5475$ \*\*\
+
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 \*\* The interest rate depends on the ratio of balance to turnover and on the terms of the collaboration and will vary from 3% to 9% APY. Text `team@herewallet.app` to get the best terms for your project.

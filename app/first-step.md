@@ -14,7 +14,7 @@ If you have a near account, we can log in using your passphrase.if you have a wa
 2. Click "use seed phrase"
 3. Enter seed phrase and click “find my account
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 ### Web wallet
 
@@ -48,7 +48,7 @@ NEAR is available with usernames instead of addresses. Usually, they cost 0.1N, 
 4. Click “Stake”
 5. All set! Now you will receive a daily income at the rate of 8-10% p.a. on your balance
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (5).png>)
 
 ## Send NEAR
 
@@ -60,7 +60,7 @@ NEAR is available with usernames instead of addresses. Usually, they cost 0.1N, 
 6. Review and click “confirm”
 7. Awesome. You’ve sent the money
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (1).png>)
 
 ## Use dApps
 
