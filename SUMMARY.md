@@ -4,7 +4,7 @@
 
 * [HERE Storage](README.md)
 * [HERE Connect (js)](technology-description/here-connect-js.md)
-* [dApps HERE](technology-description/dapps-here.md)
+* [HERE for dApps (rust)](technology-description/here-for-dapps-rust.md)
 * [Security](technology-description/security.md)
 * [BTC Bridge](technology-description/btc-bridge.md)
 * [RPC NODE](app/rpc-node.md)
