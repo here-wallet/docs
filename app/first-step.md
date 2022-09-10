@@ -73,7 +73,7 @@ Before making transfers to third-party wallets you need to withdraw part of the 
 3. Enter the amount to unstake
 4. Click “Confirm”
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 ### &#x20;
 
