@@ -10,7 +10,7 @@ description: Connect HERE Wallet to your site to push access to more users
 
 To sign a transaction you need to scan the QR code with the phone on which the installed Here Wallet:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Connect @here-wallet/connect
 

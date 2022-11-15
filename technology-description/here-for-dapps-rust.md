@@ -2,7 +2,7 @@
 description: How to integrate your dApps with HERE
 ---
 
-# dApps HERE
+# HERE for dApps (rust)
 
 ## Motivation
 
@@ -28,7 +28,7 @@ Contract NEAR: `storage.herewallet.app`
 
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Example
 

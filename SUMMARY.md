@@ -24,4 +24,5 @@
 
 ## ⚙ HERE API
 
+* [App Clip](here-api/app-clip.md)
 * [Push notifications](here-api/push-notifications.md)

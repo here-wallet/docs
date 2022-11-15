@@ -31,7 +31,7 @@ If you have a wallet at wallet.near.org
 9. Enter account ID and click “Confirm”
 10. You will be authorized on mobile device
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 ## Setup username (free)
 
