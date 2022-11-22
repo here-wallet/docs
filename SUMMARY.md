@@ -2,27 +2,28 @@
 
 ## Technology description
 
-* [HERE Storage](README.md)
-* [HERE Phone number transfer](technology-description/here-phone-number-transfer.md)
-* [HERE Connect (js)](technology-description/here-connect-js.md)
-* [HERE for dApps (rust)](technology-description/here-for-dapps-rust.md)
-* [Security](technology-description/security.md)
-* [RPC NODE](app/rpc-node.md)
+* [Storage](README.md)
+  * [Security](technology-description/readme/security.md)
+* [Phone number transfer](technology-description/phone-number-transfer.md)
+* [Apple app clip](technology-description/apple-app-clip.md)
+
+## ⚙ Tools for dApps
+
+* [Instant wallet](tools-for-dapps/instant-wallet.md)
+* [Push notifications](tools-for-dapps/push-notifications.md)
+* [non-blocking storage with APY](tools-for-dapps/non-blocking-storage-with-apy.md)
 
 ## App
 
 * [🚀 First step](app/first-step.md)
 * [💻 Login](app/login.md)
+* [RPC NODE](app/rpc-node.md)
 * [BTC Bridge](app/btc-bridge.md)
 
 ## partners
 
+* [HERE Connect (js)](partners/here-connect-js.md)
 * [NEAR Foundation](partners/near-foundation.md)
+* [Tonic DEX](partners/tonic-dex.md)
 * [Astrostakers](partners/astrostakers.md)
 * [GetBlock](partners/getblock.md)
-* [Tonic DEX](partners/tonic-dex.md)
-
-## ⚙ HERE API
-
-* [App Clip](here-api/app-clip.md)
-* [Push notifications](here-api/push-notifications.md)

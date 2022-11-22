@@ -2,7 +2,7 @@
 description: >-
   In this page we want to tell you more about what solutions we use to ensure
   security of storage in HERE Wallet
-cover: ../.gitbook/assets/Export This (1).png
+cover: ../../.gitbook/assets/Export This (1).png
 coverY: -249.20127795527156
 ---
 
