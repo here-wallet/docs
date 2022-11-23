@@ -6,6 +6,7 @@
   * [Security](technology-description/readme/security.md)
 * [Phone number transfer](technology-description/phone-number-transfer.md)
 * [Apple app clip](technology-description/apple-app-clip.md)
+* [Token swaps](technology-description/token-swaps.md)
 
 ## ⚙ Tools for dApps
 
