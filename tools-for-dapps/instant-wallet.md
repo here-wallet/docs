@@ -10,6 +10,8 @@ We wrote a small library which is fully compatible with wallet selector. We can 
 
 ## @herewallet/near-selector
 
+{% embed url="https://github.com/here-wallet/near-selector" %}
+
 This library allows you to interact asynchronously with the here-wallet together with the near-selector.
 
 In contrast to the synchronous signing of transactions in MyNearWallet and official near wallet, where the user is redirected to the wallet site for signing -- _HERE Wallet_ provides the ability to sign transactions using async/await API calls.
