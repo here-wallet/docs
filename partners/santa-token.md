@@ -12,7 +12,7 @@ Santa Token is a fungible token token run on NEAR Protocol. It was launched on D
 
 On January 1st all tokens can be burned and swap to USDT, NEAR, NFT, or increased staking APY for a year in the HERE app.
 
-A total of 400,000 tokens have been issued and another 600,000 can be earned through transfers to friends. Initially, all tokens are distributed to contest partners, who in turn conduct airdrop to their users.
+A total of 1,000,000 tokens have been issued, all tokens are distributed to contest partners, who in turn conduct airdrops to their users. 100 STT ≈ 1$.
 
 ## Earn
 
@@ -26,9 +26,9 @@ Santa Token has a transparent draw algorithm. All prizes will be handed out base
 
 At 12:00 PST, the `happy_new_year()` contract method will become available. It will freeze all transfers and generate a random number via  `env::random_seed()` call. You can see this number by calling `get_seed()`.
 
-Then all users will be sorted by hash(account\_id+seed) and the sequence number of each of their tokens will be superimposed on the prize number from this table. Then each of the sponsors will be given an instruction to whom and how many prizes to send.
+Then all users will be sorted by `hash(account_id+seed)` and the sequence number of each of their tokens will be superimposed on the prize number from this table. Then each of the sponsors will be given an instruction to whom and how many prizes to send.
 
-Table with prizes is uploaded to IPFS by link and is not changeable. Any user will be able to check their prizes after the contest ends.
+The table with prizes is uploaded to IPFS by link and is not changeable. Any user will be able to check their prizes after the contest ends.
 
 ## Example
 
