@@ -70,3 +70,11 @@ NFT HERE <> ALISA
 | Encrypted                                  |                  |      |     |       |      |
 | LNC                                        |                  |      |     |       |      |
 
+### Contract code
+
+{% embed url="https://github.com/here-wallet/santa-token" %}
+
+### Contact
+
+{% embed url="https://explorer.near.org/accounts/santa_token.near" %}
+
