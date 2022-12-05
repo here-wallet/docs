@@ -23,6 +23,7 @@
 
 ## partners
 
+* [Santa Token](partners/santa-token.md)
 * [HERE Connect (js)](partners/here-connect-js.md)
 * [NEAR Foundation](partners/near-foundation.md)
 * [Tonic DEX](partners/tonic-dex.md)
