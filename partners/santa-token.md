@@ -4,7 +4,7 @@ cover: ../.gitbook/assets/Santa token.png
 coverY: 0
 ---
 
-# Santa Token
+# 🎅 Santa Token
 
 ## Abstract
 
@@ -57,6 +57,10 @@ NFT HERE
 0.2 NEAR <> ALISA\
 0.5 USDC <> ALISA\
 NFT HERE <> ALISA
+
+
+
+**Full prize list:** [https://nftstorage.link/ipfs/bafybeia6r4gx3f4obyurdiyknza2ejqcsqboihbkogsqgs3jul3mx5hdoi](https://nftstorage.link/ipfs/bafybeia6r4gx3f4obyurdiyknza2ejqcsqboihbkogsqgs3jul3mx5hdoi)
 
 ## Partners Table
 

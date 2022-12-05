@@ -18,12 +18,12 @@
 
 * [🚀 First step](app/first-step.md)
 * [💻 Login](app/login.md)
-* [RPC NODE](app/rpc-node.md)
-* [BTC Bridge](app/btc-bridge.md)
+* [☁ RPC NODE](app/rpc-node.md)
+* [🌉 BTC Bridge](app/btc-bridge.md)
 
 ## partners
 
-* [Santa Token](partners/santa-token.md)
+* [🎅 Santa Token](partners/santa-token.md)
 * [HERE Connect (js)](partners/here-connect-js.md)
 * [NEAR Foundation](partners/near-foundation.md)
 * [Tonic DEX](partners/tonic-dex.md)
