@@ -91,9 +91,9 @@ export interface AsyncHereSignDelegate {
   // use this if you don't need to change strategy
   onInitialized?: () => void;
   onRequested?: (link: string) => void;
-  onApproving?: () => void;
-  onSuccess?: (result: AsyncHereSignResult) => void;
-  onFailed?: (e: unknown) => void;
+  onApproving?: (HereProviderResult) => void;
+  onSuccess?: (HereProviderResult) => void;
+  onFailed?: (HereProviderResult) => void;
 }
 ```
 
