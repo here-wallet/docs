@@ -46,7 +46,8 @@ console.log(`Hello ${accounts[0].accountId}!`);
 ### How it works
 
 By default, all near-selector api calls that you make with this library run a background process and generate a unique link that the user can go to their mobile wallet and confirm the transaction. This is a link of the form:\
-[https://web.herewallet.app/approve?request\_id=UUID4\&hash=BODY\_SHA1\_HASH](https://web.herewallet.app/approve?request\_id=UUID4\&hash=BODY\_SHA1\_HASH)
+**https://h4n.app/TRX\_SHA1\_IN\_BASE64\_URL\_SAFE**\
+****
 
 If a user has logged into your application from a phone and has a wallet installed, we immediately transfer him to the application for signing. In all other cases, we open a new window on the web.herewallet.app site, where the user can find information about installing the wallet and sign the transaction there.
 
@@ -61,21 +62,16 @@ If your goal is to provide the user with a convenient way to log in to your desk
 You have the option to override how your user is delivered the signing link. This is how you can create a long-lived transaction signature request and render it on your web page:
 
 ```typescript
-import QRCode from "qrcode";
 import { Strategy } from "@here-wallet/near-selector";
-
-class QRCodeStrategy implements Strategy {
-  qrcode = document.getElementById("canvas-qr")
-  onRequested(link) {
-    QRCode.toCanvas(this.qrcode, link);
-  }
-}
+import { QRCodeStrategy } from "@here-wallet/near-selector/qrcode-strategy";
 
 // Instant wallet signin HERE!
 const here = await selector.wallet<HereWallet>("here-wallet");
+const element = document.getElementById("qrcode")
+
 await here.signIn({
   contractId: "social.near",
-  strategy: new QRCodeStrategy(), // override new window
+  strategy: new QRCodeStrategy({ element, theme: "dark" }), // override new window
 });
 ```
 
@@ -89,6 +85,7 @@ Methods **signIn**, **signAndSendTransaction**, **signAndSendTransactions** have
 export interface AsyncHereSignDelegate {
   // DefaultStrategy by default called new window popup, you can override it
   strategy?: Strategy;
+  signal?: AbortSignal;
 
   // Just Events, called before strategy, 
   // use this if you don't need to change strategy
