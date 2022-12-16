@@ -62,17 +62,11 @@ NFT HERE <> ALISA
 
 **Full prize list:** [https://nftstorage.link/ipfs/bafybeia6r4gx3f4obyurdiyknza2ejqcsqboihbkogsqgs3jul3mx5hdoi](https://nftstorage.link/ipfs/bafybeia6r4gx3f4obyurdiyknza2ejqcsqboihbkogsqgs3jul3mx5hdoi)
 
-## Partners Table
+### Site
 
-|                                            | Token allocation | USDC | NFT | APY+  | NEAR |
-| ------------------------------------------ | ---------------- | ---- | --- | ----- | ---- |
-| [HERE Wallet](http://herewallet.app/)      | 100000           | 1000 | 50  | 5000% | 0    |
-| [Tonic DEX](https://app.tonic.foundation/) | 50000            | 500  | 50  | 0     | 100  |
-| [NERA Foundation](https://near.org/)       |                  |      |     |       |      |
-| Keypom                                     |                  |      |     |       |      |
-| Paras                                      |                  |      |     |       |      |
-| Encrypted                                  |                  |      |     |       |      |
-| LNC                                        |                  |      |     |       |      |
+{% embed url="https://herewallet.app/santa/" %}
+
+###
 
 ### Contract code
 
