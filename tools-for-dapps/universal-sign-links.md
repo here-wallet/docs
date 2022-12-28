@@ -62,3 +62,34 @@ params list same as for NEAR rpc api
 
 Waller route: `https://my.herewallet.app/call/{b58transaction}`
 
+### Sign
+
+You can also sign a message with a private key without sending it to the blockchain. This is useful e.g. for authorization via a wallet
+
+Base58 json encode:
+
+```json
+{ 
+    "receiver": "dapp.name", 
+    "message": "auth message to sign", 
+    "network": "mainnet" 
+}
+```
+
+Waller route: `https://my.herewallet.app/sign/{b58request}`\
+
+
+
+
+### Redirect url
+
+`?returnUrl=https://google.com`\
+``
+
+if error
+
+`https://google.com?failure=some_error_text`
+
+if success
+
+`https://google.com?success=trxHash,trxHash,trxHash`
