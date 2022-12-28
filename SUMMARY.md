@@ -12,7 +12,8 @@
 
 * [Instant wallet](tools-for-dapps/instant-wallet.md)
 * [Push notifications](tools-for-dapps/push-notifications.md)
-* [non-blocking storage with APY](tools-for-dapps/non-blocking-storage-with-apy.md)
+* [Non-blocking storage with APY](tools-for-dapps/non-blocking-storage-with-apy.md)
+* [Universal sign links](tools-for-dapps/universal-sign-links.md)
 
 ## App
 
