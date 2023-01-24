@@ -115,4 +115,4 @@ This library was created to speed up development, the most stable version of thi
 
 {% embed url="https://codesandbox.io/s/here-wallet-instant-app-6msgmn?file=/src/index.ts" %}
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Example on paras</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Example on paras</p></figcaption></figure>

@@ -2,7 +2,7 @@
 description: How the HERE app gets data from the blockchain
 ---
 
-# RPC NODE
+# ☁ RPC NODE
 
 To ensure that no one collects the user's confidential data, such as
 

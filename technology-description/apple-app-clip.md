@@ -15,7 +15,7 @@ examples of use
 * Output NFT tickets to a new wallet you just created
 * Authorize users via a crypto wallet
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Example on paras</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Example on paras</p></figcaption></figure>
 
 Then the user will be able to scan the wallet and immediately get some NEAR and buy NFT
 

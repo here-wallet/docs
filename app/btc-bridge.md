@@ -2,7 +2,7 @@
 description: how the NEAR -BTC bridge works at HERE Wallet
 ---
 
-# BTC Bridge
+# 🌉 BTC Bridge
 
 ### Why do I need BTC in HERE wallet?
 
