@@ -4,7 +4,11 @@ cover: .gitbook/assets/tg_image_3445600662.jpeg
 coverY: 25.559105431309906
 ---
 
-# HERE Storage
+# Storage
+
+{% embed url="https://my.herewallet.app/stake" %}
+Try in web&#x20;
+{% endembed %}
 
 ### Abstract
 
