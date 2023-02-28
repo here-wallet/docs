@@ -12,7 +12,7 @@ Try in web&#x20;
 
 ### Abstract
 
-The smart contract implements the NEP-141 spec (similar to ERC-20) to store user funds. In exchange for the NEAR, the user receives tokens of the wrapped NEAR. Most of the money held on the contract is stacking, but some are always left free. This allows the user to swap hNEAR to NEAR at any time without commission and use their funds.
+The smart contract implements the NEP-141 spec (similar to ERC-20) to store user funds. In exchange for the NEAR, the user receives tokens of the wrapped NEAR. Most of the money held on the contract is staking, but some are always left free. This allows the user to swap hNEAR to NEAR at any time without commission and use their funds.
 
 For transactions within the wallet, hNEAR is used. For transactions with third-party users first conversion hNEAR to NEAR and then transfer NEAR.
 
