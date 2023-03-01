@@ -3,7 +3,7 @@
 ## Technology description
 
 * [Storage](README.md)
-  * [Getting Income](technology-description/readme/getting-income.md)
+  * [Getting Income](technology-description/readme/apy-value.md)
   * [Security](technology-description/readme/security.md)
   * [Security audit](technology-description/readme/security-audit.md)
 * [Phone number transfer](technology-description/phone-number-transfer.md)

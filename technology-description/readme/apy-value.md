@@ -23,4 +23,4 @@ After that, your balance in hNEAR will be increased. \
 
 ### Reasoning
 
-HERE Storage does not have a minimum anstaking fee, but we still have to balance so that space is always available. That's why users have different yields. It will go up if you hold money for a long time and go down if you use liquidity often. In order for each user to have his own yield it is necessary to count independently
+HERE Storage does not have a minimum unstaking fee, but we still have to balance so free liquidity is always available. That's why users have different yields. It will go up if user hold money for a long time and go down if user use liquidity often. In order for each user to have his own yield it is necessary to count independently
