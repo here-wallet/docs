@@ -16,7 +16,7 @@ The smart contract implements the NEP-141 spec (similar to ERC-20) to store user
 
 For transactions within the wallet, hNEAR is used. For transactions with third-party users first conversion hNEAR to NEAR and then transfer NEAR.
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (2) (1).png>)
 
 The `astostaking` project is used for staking. Users receive an accrual of interest to their hNEAR account on demand. The resulting income can be withdrawn at any time, turning it into NEAR.
 
