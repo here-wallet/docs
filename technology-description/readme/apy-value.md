@@ -4,7 +4,7 @@ description: This article describes how to generate income from liquid staking
 
 # Getting Income
 
-Unlike other liquid steaking cents hNEAR is fixed and always equal to 1 NEAR.
+Unlike other liquid staking cents hNEAR is fixed and always equal to 1 NEAR.
 
 Income is accumulated in the form of dividends, which are recalculated after any balance change (transfer, withdrawal, deposit). You can check the amount of accumulated dividends by calling the
 
@@ -23,4 +23,4 @@ After that, your balance in hNEAR will be increased. \
 
 ### Reasoning
 
-HERE Storage does not have a minimum unstaking fee, but we still have to balance so free liquidity is always available. That's why users have different yields. It will go up if user hold money for a long time and go down if user use liquidity often. In order for each user to have his own yield it is necessary to count independently
+HERE Storage does not have a minimum unstaking fee, but we still have to balance so free liquidity is always available. That's why users have different yields. It will go up if the user holds money for a long time and go down if the user uses liquidity often. In order for each user to have his own yield it is necessary to count independently
