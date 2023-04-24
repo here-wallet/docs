@@ -84,7 +84,7 @@ Waller route: `https://my.herewallet.app/sign/{b58request}`\
 ### Redirect url
 
 `?returnUrl=https://google.com`\
-``
+
 
 if error
 

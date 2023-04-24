@@ -47,7 +47,7 @@ console.log(`Hello ${accounts[0].accountId}!`);
 
 By default, all near-selector api calls that you make with this library run a background process and generate a unique link that the user can go to their mobile wallet and confirm the transaction. This is a link of the form:\
 **https://h4n.app/TRX\_SHA1\_IN\_BASE64\_URL\_SAFE**\
-****
+
 
 If a user has logged into your application from a phone and has a wallet installed, we immediately transfer him to the application for signing. In all other cases, we open a new window on the web.herewallet.app site, where the user can find information about installing the wallet and sign the transaction there.
 

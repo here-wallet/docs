@@ -29,11 +29,12 @@ import "@here-wallet/connect/index.css" // you need css loader
 // Initialize here wallet bridge
 runHereWallet({ near })
 
-<strong>// You dont need change your code! js</strong></code></pre>
+<strong>// You dont need change your code! js
+</strong></code></pre>
 
 Now all `near-api-js` calls that automatically redirect to `wallet.near.org` will open a built-in modal window in which the user can choose which wallet he wants to use to log in or upvote a transaction:
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 If you want to use only Here Wallet in your application, add only HERE: true to the library initializer:
 
