@@ -26,10 +26,10 @@ description: >-
 #### How to earn a score?
 
 1. Open [app](https://download.herewallet.app/): **+1** (one per day)
-2. Make the swap: **+10** (one per day)
-3. Start stake: **+50**
-4. Invite a friend with balance: **+150**
-5. Join `#heroes` channel at [discord](https://discord.gg/JMVbdBjb) and send username: **+25**
+2. Make the swap: **+5** (one per day)
+3. Start stake: **+20**
+4. Invite a friend with balance: **+25**
+5. Join `#heroes` channel at [discord](https://discord.gg/JMVbdBjb) and send username: **+15**
 
 More use cases soon 🔜
 
