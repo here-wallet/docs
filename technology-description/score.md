@@ -14,22 +14,24 @@ description: >-
 
 2\. **+APY**. The more score, the more profit you get from staking. Up to 10.2% per annum!
 
-3\. **Cashback**. Users with score higher than 3000 can do gas free transactions between friends, get cashback for swaps, and purchase of some NFTs
+3\. **Cashback**. Users with score higher than 2500 can do gas free transactions between friends, get cashback for swaps, and purchase of some NFTs
 
 ## **Levels:**
 
 **0–100** — I am not a bot 🤖\
-**100–1300** — Start earn more APY, +0.1% for each 100 score 💸\
-**400, 600, 1000, 2500** — Unlocking a secret feature 🔐\
-**2000** —God mode. Gas free transactions / cashback for swaps ☁️
+**500–1500** — Start earn more APY, +0.1% for each 100 score 💸\
+**400, 800, 1200** — Unlocking a secret feature 🔐\
+**2500** —God mode. Gas free transactions / cashback for swaps ☁️
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### How to earn a score?
 
-1. Open [app](https://download.herewallet.app/): **+1** (one per day)
-2. Make the swap: **+5** (one per day)
-3. Start stake: **+20**
-4. Invite a friend with balance: **+25**
-5. Join `#heroes` channel at [discord](https://discord.gg/JMVbdBjb) and send username: **+15**
+1. Open [app](https://download.herewallet.app/): **+5** (one per day)
+2. Make the swap: **+25** (one per day)
+3. Start stake: **+100**
+4. Invite a friend with balance: **+150**
+5. Join `👋│intros` channel at [discord](https://discord.gg/JMVbdBjb) and send intro: **+50**
 
 More use cases soon 🔜
 

@@ -14,7 +14,7 @@ NEAR_ENV=mainnet near view storage.herewallet.near  get_user  '{"account_id":"ko
 
 The accumulated dividends can be transferred to the account at any time by calling the `claim_dividends` method or by pressing the claim button in the application or on the website.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 NEAR_ENV=mainnet near call storage.herewallet.near  claim_dividends  '' --accountId bob.near

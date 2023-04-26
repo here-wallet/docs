@@ -10,7 +10,7 @@ description: >-
 
 The idea is to use money from the balance of the exchange onchain. When you connect Binance, you create an api key that lets you quickly move assets between the exchange and your crypto wallet. Now you can remove fees from staking, use dApps, and store money safely. And at the same time use the exchange for cheap swaps and withdrawals to fiat.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Connecting
 
