@@ -31,7 +31,7 @@ description: >-
 2. Make the swap: **+25** (one per day)
 3. Start stake: **+100**
 4. Invite a friend with balance: **+150**
-5. Join `👋│intros` channel at [discord](https://discord.gg/JMVbdBjb) and send intro: **+50**
+5. Join `👋│intros` channel at [discord](https://dd.herewallet.app/) and send intro: **+50**
 
 More use cases soon 🔜
 
