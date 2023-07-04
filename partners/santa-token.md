@@ -41,12 +41,7 @@ NFT HERE
 
 **Bob and Alice participated in the contest:**
 
-|                          | Bob                                                              | Alisa                                                            |
-| ------------------------ | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
-| account id               | bob.near                                                         | alisa.near                                                       |
-| Token balance            | 1 SANTA                                                          | 3 SANTA                                                          |
-| SEED                     | **123**                                                          | **123**                                                          |
-| sha256(account\_id+SEED) | 06e1966d9df7d550f3a3dc71d801afb44dbaa20d1c19cf9405655c6fdacdec0a | 6b6183a63e3dc66cf472a36a9b7b811c44026797cd0b36263f261b6be182bc1d |
+<table><thead><tr><th width="280.3333333333333"> </th><th>Bob</th><th>Alisa</th></tr></thead><tbody><tr><td>account id</td><td>bob.near</td><td>alisa.near</td></tr><tr><td>Token balance</td><td>1 SANTA</td><td>3 SANTA</td></tr><tr><td>SEED</td><td><strong>123</strong></td><td><strong>123</strong></td></tr><tr><td>sha256(account_id+SEED)</td><td>06e1966d9df7d550f3a3dc71d801afb44dbaa20d1c19cf9405655c6fdacdec0a</td><td>6b6183a63e3dc66cf472a36a9b7b811c44026797cd0b36263f261b6be182bc1d</td></tr></tbody></table>
 
 **Order:**
 

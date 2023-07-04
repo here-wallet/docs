@@ -24,7 +24,7 @@
 * [🚀 First step](app/first-step.md)
 * [💻 Login](app/login.md)
 * [☁ RPC NODE](app/rpc-node.md)
-* [🌉 BTC Bridge](app/btc-bridge.md)
+* [⛽ Gas-free transactions](app/gas-free-transactions.md)
 
 ## partners
 
