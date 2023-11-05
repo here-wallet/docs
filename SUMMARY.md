@@ -6,7 +6,7 @@
   * [Getting Income](technology-description/readme/apy-value.md)
   * [Security](technology-description/readme/security.md)
   * [Security audit](technology-description/readme/security-audit.md)
-* [Phone number transfer](technology-description/phone-number-transfer.md)
+* [📞 Phone number transfer](technology-description/phone-number-transfer.md)
 * [Apple app clip](technology-description/apple-app-clip.md)
 * [Binance connect](technology-description/binance-connect.md)
 * [Score](technology-description/score.md)
