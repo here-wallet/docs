@@ -14,4 +14,4 @@ We use our own NEAR RPC node. Also, we use powerful server hardware and our view
 
 {% embed url="https://github.com/near/nearcore" %}
 
-You can also use our RPC node at `rpc.hereallet.app`
+You can also use our RPC node at `rpc.herewallet.app`
